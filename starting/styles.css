@@ -268,7 +268,7 @@ margin-right: 3%;
     width: 20px;
     height: 20px;
 transition-property: scale;
-transition-duration: 1s;
+transition-duration: .5s;
 }
 
 .smedia:hover img {
