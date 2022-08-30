@@ -104,16 +104,15 @@ p {
     margin: 5px;
 }
 
-.pink {
-    background: linear-gradient(#0090FF, #40AAFC);
-}
-
 .cool-blue {
-    background: linear-gradient(#00FF36, #44FF6C)
+    background: linear-gradient(#2d5dcc, #2d5dcc)
 }
 
+.pink {
+    background: linear-gradient(#d957d9, #d957d9);
+}
 .mint-green {
-    background: linear-gradient(#FF1200, #FF4D3F)
+    background: linear-gradient(#4fe0b0, #4fe0b0)
 }
 
  /* ---- FONTS ---- */
@@ -127,11 +126,11 @@ p {
     border-bottom-right-radius: 25px;
     box-shadow: 5px 5px 3px rgb(132, 132, 132);
     transition-property: box-shadow color;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 .fonts:hover{
-    box-shadow: 5px 5px 5px rgb(142, 255, 28);
+    box-shadow: 5px 5px 5px rgb(4, 48, 245);
     border-bottom-right-radius: 25px;
     text-align: left;
     padding: 5%;
@@ -251,5 +250,5 @@ transition-duration: .5s;
 }
 
 .smedia:hover img {
-    scale: 2 2;
+    scale: 1.8 1.8;
 }
