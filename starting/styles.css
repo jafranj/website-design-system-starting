@@ -58,12 +58,20 @@ p {
 /* ---- COLOR ---- */
 
 .color {
+    border-right: rgb(58, 58, 58) solid 3px;
+    border-bottom: rgb(58, 58, 58) solid 3px;
     padding: 3%;
     text-align: left;
-    transition-duration: 2s;
+    padding-bottom: 5%;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 5px 3px rgb(132, 132, 132);
+    transition-property: box-shadow color;
+    transition-duration: 1s;
 }
 
 .color:hover {
+    box-shadow: 5px 5px 5px rgb(4, 48, 245);
+    border-bottom-right-radius: 25px;
     text-align: left;
     padding: 5%;
 }
@@ -142,6 +150,7 @@ p {
 
 .fonts:hover h3 {
     font-size: 2rem;
+    text-shadow: .5px .5px .5px rgb(14, 226, 216);
 }
 
 .fonts p {
@@ -153,20 +162,19 @@ p {
 .fonts:hover p {
     font-size: 1.5rem;
 }
-
+.FiraSans {
+    font-family: 'Fira Sans', sans-serif;
+}
 .Mulish {
     font-family: 'Mulish', sans-serif;
-    text-shadow: 2px 1px 3px rgb(255, 229, 149);
 }
 
 .Barlow {
     font-family: 'Barlow', sans-serif;
-    text-shadow: 2px 1px 4px rgb(149, 218, 255);
 }
 
 .FiraSans {
     font-family: 'Fira Sans', sans-serif;
-    text-shadow: 2px 1px 3px rgb(255, 148, 148);
 }
 
 .pmfira {
@@ -195,7 +203,7 @@ p {
 }
 
 .styles:hover{
-    box-shadow: 5px 5px 5px rgb(255, 59, 20);
+    box-shadow: 5px 5px 5px rgb(4, 48, 245);
     border-bottom-right-radius: 25px;
     padding: 5%;
     text-align: left;
