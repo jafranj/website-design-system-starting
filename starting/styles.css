@@ -104,7 +104,7 @@ p {
     transition-property: padding;
     transition-duration: 3s;
     transition-property: margin;
-    transition-duration: 3s;
+    transition-duration: 2s;
 }
 
 .color:hover a {
@@ -153,11 +153,11 @@ p {
     text-shadow: .5px .5px .5px rgb(14, 226, 216);
 }
 
-.fonts p {
+/* .fonts p {
     font-size: 1rem;
     transition-property: font-size;
-    transition-duration: 2s;
-}
+    transition-duration: 1s;
+} */
 
 .fonts:hover p {
     font-size: 1.5rem;
@@ -173,11 +173,7 @@ p {
     font-family: 'Barlow', sans-serif;
 }
 
-.FiraSans {
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.pmfira {
+.pfira {
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -210,29 +206,33 @@ p {
 }
 
 .styles ul {
-font-size: 1.2rem;
+font-size: 1rem;
 transition-property: font-size;
 transition-duration: 4s;
 }
 
-.styles:hover ul {
-    font-size: 1.5rem;
+.FiraSans h1 {
+    font-family: 'FiraSans', sans-serif;
+    font-weight: 700;
+    font-size: 1.625rem;
+    transition-property: font-size;
+    transition-duration: 2s;
 }
 
-.styles:hover h2 {
-    font-size: 2.25rem;
+.Mulish h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    transition-property: font-size;
+    transition-duration: 2s;
 }
 
-.styles:hover h3 {
-    font-size: 2rem;
-}
-
-.styles:hover h1 {
-    font-size: 2.5rem;
-}
-
-.styles:hover p {
-    font-size: 1.8rem;
+.Barlow h3 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    transition-property: font-size;
+    transition-duration: 2s;
 }
 
 /* ---- FOOTER ---- */
