@@ -1,2 +1,0 @@
-# website-design-system-starting
- 
